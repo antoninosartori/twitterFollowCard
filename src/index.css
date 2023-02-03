@@ -1,0 +1,29 @@
+:root{
+  --white: #eff3f4;
+  --black: #000;
+  --grayBlue: #61656a;
+  --grayBgComponent: #16181c;
+  --grayHover: #1d1f23;
+  --redStrong: #6b000b;
+  --redLight: #ff2233;
+  --redOpacity: #331f24;
+
+  --fontPrincipal: 'Helvetica';
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+button{
+  border: none;
+  outline: none;
+  font-family: var(--fontPrincipal);
+}
+
+body{
+  background-color: var(--black);
+  font-family: Helvetica;
+}

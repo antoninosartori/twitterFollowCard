@@ -1,0 +1,96 @@
+/* contenedor principal del articulo */
+.twitter-followCard-article{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    color: var(--white);
+}
+
+.twitter-followCard-article:hover{
+    background-color: var(--grayHover);
+}
+
+/* imagen de avatar */
+.twitter-followCard-avatar{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* contenedor del nombre de usuario y boton */
+.twitter-followCard-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nombre de persona */
+.twitter-followCard--name{
+    font-size: 16px;
+}
+
+/* nombre de usuario */
+.twitter-followCard--userName{
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--grayBlue);
+}
+
+/* boton */
+.twitter-followCard-info--btn{
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: var(--white);
+    color: var(--grayBgComponent);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.twitter-followCard-info--btn:hover{
+    opacity: .8;
+}
+
+.--isFollowing{
+    width: 160px;
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+
+.twitter-unfollowText{
+    display: none;
+}
+
+/* dice dejar de seguir */
+.--isFollowing:hover .twitter-unfollowText{
+    display: block;
+    color: var(--redLight);
+}
+
+.--isFollowing:hover {
+    background-color: var(--redOpacity);
+    border: 1px solid var(--redStrong);
+}
+
+.--isFollowing:hover .twitter-btnText{
+    display: none;
+}
+
+.twitter-followCard-userNameFollowingYou{
+    display: flex;
+    align-items: center;
+}
+
+.twitter-followCard-isFollowingYou{
+    margin-left: 5px;
+    font-size: 14px;
+    padding: 2px 4px;
+    background-color: #202327;
+    color: #797e83;
+    border-radius: 5px;
+}

@@ -1,0 +1,23 @@
+.home{
+    min-height: 100vh;
+    max-width: 992px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitterFollowCard-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: var(--grayBgComponent);
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+.twitterFollowCard-title{
+    font-size: 25px;
+    color: var(--white);
+    padding:10px;
+}
